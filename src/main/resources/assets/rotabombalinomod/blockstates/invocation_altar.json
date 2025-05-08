@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rotabombalinomod:block/invocation_altar"
+    },
+    "facing=south": {
+      "model": "rotabombalinomod:block/invocation_altar",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "rotabombalinomod:block/invocation_altar",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "rotabombalinomod:block/invocation_altar",
+      "y": 270
+    }
+  }
+}
