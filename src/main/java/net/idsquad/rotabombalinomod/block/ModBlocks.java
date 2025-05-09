@@ -20,7 +20,8 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, RotabombalinoMod.MOD_ID);
 
     public static final RegistryObject<Block> ALTAR_ROTABOMBALINO = registerBlock("invocation_altar",
-            () -> new InvocationAltarBlock(BlockBehaviour.Properties.of().noOcclusion().strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new InvocationAltarBlock(BlockBehaviour.Properties.of().noOcclusion().strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)
+                    .lightLevel(state -> state.getValue(InvocationAltarBlock.CLICKED) ? 15 : 0)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
