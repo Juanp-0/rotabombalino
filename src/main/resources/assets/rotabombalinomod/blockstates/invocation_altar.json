@@ -1,18 +1,40 @@
 {
   "variants": {
-    "facing=north": {
+    "facing=north,clicked=false": {
       "model": "rotabombalinomod:block/invocation_altar"
     },
-    "facing=south": {
+
+    "facing=north,clicked=true": {
+      "model": "rotabombalinomod:block/invocation_altar_activated"
+    },
+
+    "facing=south,clicked=false": {
       "model": "rotabombalinomod:block/invocation_altar",
       "y": 180
     },
-    "facing=east": {
+
+    "facing=south,clicked=true": {
+      "model": "rotabombalinomod:block/invocation_altar_activated",
+      "y": 180
+    },
+
+    "facing=east,clicked=false": {
       "model": "rotabombalinomod:block/invocation_altar",
       "y": 90
     },
-    "facing=west": {
+
+    "facing=east,clicked=true": {
+      "model": "rotabombalinomod:block/invocation_altar_activated",
+      "y": 90
+    },
+
+    "facing=west,clicked=false": {
       "model": "rotabombalinomod:block/invocation_altar",
+      "y": 270
+    },
+
+    "facing=west,clicked=true": {
+      "model": "rotabombalinomod:block/invocation_altar_activated",
       "y": 270
     }
   }
