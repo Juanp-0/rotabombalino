@@ -33,7 +33,7 @@ jobs:
           AWS_REGION: us-east-1
         run: |
           chmod +x ./.github/workflows/scripts/build-and-upload.sh  
-          /scripts/build-and-upload.sh
+          ./.github/workflows/scripts/build-and-upload.sh
 
       - name: Check EC2 status and stop if running
         env:
@@ -43,7 +43,7 @@ jobs:
           INSTANCE_ID: ${{ secrets.EC2_INSTANCE_ID }}
         run: |
           chmod +x ./.github/workflows/scripts/manage-ec2.sh
-          ./scripts/manage-ec2.sh
+          ./.github/workflows/scripts/manage-ec2.sh
       
       - name: Configure Server via SSH
         uses: appleboy/ssh-action@v0.1.10
@@ -53,4 +53,4 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             chmod +x ./.github/workflows/scripts/configure-server.sh
-            ./scripts/configure-server.sh
+            ./.github/workflows/scripts/configure-server.sh
