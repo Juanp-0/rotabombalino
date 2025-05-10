@@ -21,7 +21,7 @@ jobs:
           java-version: 17
 
       - name: Build Mod
-        run: ./gradlew build
+        run: cmod +x ./gradlew && ./gradlew build
 
       - name: Upload Mod to S3
         env:
