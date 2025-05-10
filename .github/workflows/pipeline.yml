@@ -32,7 +32,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: us-east-1
         run: |
-          chmod +x ./workflows/scripts/build-and-upload.sh  
+          chmod +x ./.github/workflows/scripts/build-and-upload.sh  
           /scripts/build-and-upload.sh
 
       - name: Check EC2 status and stop if running
@@ -42,7 +42,7 @@ jobs:
           AWS_REGION: us-east-1
           INSTANCE_ID: ${{ secrets.EC2_INSTANCE_ID }}
         run: |
-          chmod +x ./workflows/scripts/manage-ec2.sh
+          chmod +x ./.github/workflows/scripts/manage-ec2.sh
           ./scripts/manage-ec2.sh
       
       - name: Configure Server via SSH
@@ -52,5 +52,5 @@ jobs:
           username: ec2-user
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            chmod +x ./workflows/scripts/configure-server.sh
+            chmod +x ./.github/workflows/scripts/configure-server.sh
             ./scripts/configure-server.sh
