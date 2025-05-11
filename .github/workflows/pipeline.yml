@@ -53,5 +53,5 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           timeout: 50s
           script: |
-            chmod +x ./.github/workflows/scripts/configure-server.sh
-            ./.github/workflows/scripts/configure-server.sh
+            chmod +x ~/configure-server.sh
+            ~/configure-server.sh
