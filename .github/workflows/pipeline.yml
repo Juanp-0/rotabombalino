@@ -52,7 +52,7 @@ jobs:
           username: ec2-user
           key: ${{ secrets.EC2_SSH_KEY }}
           source: ".github/workflows/scripts/configure-server.sh"
-          target: "~/"
+          target: "/home/ec2-user/"
 
       - name: Run script on EC2
         uses: appleboy/ssh-action@v0.1.10
@@ -61,6 +61,6 @@ jobs:
           username: ec2-user
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            chmod +x ~/configure-server.sh
-            ~/configure-server.sh
+            chmod +x /home/ec2-user/configure-server.sh
+            /home/ec2-user/configure-server.sh
 
