@@ -52,7 +52,8 @@ jobs:
           username: ec2-user
           key: ${{ secrets.EC2_SSH_KEY }}
           source: ".github/workflows/scripts/configure-server.sh"
-          target: "/home/ec2-user/configure-server.sh/"
+          target: "/home/ec2-user/"
+          strip_components: 3
 
       - name: Run script on EC2
         uses: appleboy/ssh-action@v0.1.10
