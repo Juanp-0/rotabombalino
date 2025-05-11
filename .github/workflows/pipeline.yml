@@ -45,7 +45,7 @@ jobs:
           chmod +x ./.github/workflows/scripts/manage-ec2.sh
           ./.github/workflows/scripts/manage-ec2.sh
       
-      - name: Configure Server via SSH
+      - name: Upload script on EC2 via SSH
         uses: appleboy/scp-action@v0.1.4
         with:
           host: ${{ secrets.EC2_PUBLIC_IP }}
@@ -53,3 +53,14 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           source: ".github/workflows/scripts/configure-server.sh"
           target: "~/"
+
+      - name: Run script on EC2
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.EC2_PUBLIC_IP }}
+          username: ec2-user
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            chmod +x ~/configure-server.sh
+            ~/configure-server.sh
+
