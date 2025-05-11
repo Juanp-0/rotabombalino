@@ -53,6 +53,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           port: 22
           timeout: 60s
+          debug: true
           script: |
             chmod +x ./.github/workflows/scripts/configure-server.sh
             ./.github/workflows/scripts/configure-server.sh
