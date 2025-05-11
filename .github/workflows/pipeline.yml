@@ -64,4 +64,5 @@ jobs:
           script: |
             chmod +x /home/ec2-user/configure-server.sh
             /home/ec2-user/configure-server.sh
+            rm /home/ec2-user/configure-server.sh
 
