@@ -1,6 +1,8 @@
 package net.idsquad.rotabombalinomod.block.custom;
 
 import com.mojang.serialization.MapCodec;
+import net.idsquad.rotabombalinomod.entity.ModEntities;
+import net.idsquad.rotabombalinomod.entity.custom.TralaleroEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
@@ -35,24 +37,15 @@ public class InvocationAltarBlock extends HorizontalDirectionalBlock {
     @Override
     protected InteractionResult useWithoutItem (BlockState pState, Level pLevel, BlockPos pPos,
                                                 Player pPlayer, BlockHitResult pHitResult){
-        if (!pLevel.isClientSide()){
+        if (!pLevel.isClientSide()) {
             boolean currentState = pState.getValue(CLICKED);
             pLevel.setBlockAndUpdate(pPos, pState.setValue(CLICKED, !currentState));
-            Zombie babyZombie = new Zombie(pLevel);
-            babyZombie.setBaby(true);
 
-            Chicken chicken = EntityType.CHICKEN.create(pLevel);
-            if (chicken != null) {
-                chicken.setChickenJockey(true);
-                chicken.setPos(pPos.getX() + 0.5, pPos.getY() + 1, pPos.getZ() + 0.5);
+            TralaleroEntity tralalero = new TralaleroEntity(ModEntities.TRALALERO.get(), pLevel);
+            tralalero.setPos(pPos.getX() + 0.5, pPos.getY() + 1, pPos.getZ() + 0.5);
+            pLevel.addFreshEntity(tralalero);
 
-                pLevel.addFreshEntity(chicken);
-                pLevel.addFreshEntity(babyZombie);
-
-                babyZombie.startRiding(chicken);
-            }
             pLevel.scheduleTick(pPos, this, 20, TickPriority.NORMAL);
-
         }
         return InteractionResult.SUCCESS;
     }
