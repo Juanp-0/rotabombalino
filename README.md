@@ -32,15 +32,32 @@ Para craftear el **Nucleo del Altar**, necesitarás acceder al Nether y obtener 
 
 Con estos tres materiales, ya podrás craftear el **Nucleo del Altar**.
 
+En esta imagen te proporcionare de la manera correcta como se carftea este item
 
-Componentes del Mod:
-Generación de templos,
-Altares de invocación,
-Boss fights,
-Drops épicos.
 
-Tecnologías Usadas:
-IntelliJ IDEA, Forge, Blockbench.
+## **Crafteo del Altar de Invocación**
 
-Estado del Mod:
-En desarrollo
+Para craftear el **Altar de Invocación**, combina los siguientes materiales en la mesa de trabajo:
+
+- **Cubo de Esmeralda**  
+   El **Cubo de Esmeralda** se obtiene **combinando 9 esmeraldas** en la mesa de trabajo para formar el cubo.
+
+- **Arena de Almas**  
+   La **Arena de Almas** se encuentra en el **Nether** y se encuentra comúnmente en las llanuras del Nether y las zonas cercanas a las fortalezas del Nether.
+
+- **Lozas de Madera**  
+   Las **Lozas de Madera** se obtienen colocando **madera en la mesa de trabajo** y luego crafteándola en lozas.
+
+- **Lozas de Ladrillo de Piedra Negra Pulida**  
+   Para obtener **Lozas de Ladrillo de Piedra Negra Pulida**, primero debes craftear **Ladrillos de Piedra Negra Pulida** con **Piedra Negra Pulida** en la mesa de trabajo. Luego, craftea los ladrillos en lozas.
+
+- **Bloque de Ladrillo de Piedra Negra Pulida**  
+   Los **Bloques de Ladrillo de Piedra Negra Pulida** se obtienen crafteando **4 Ladrillos de Piedra Negra Pulida** en un bloque de 2x2 en la mesa de trabajo.
+
+- **Nucleo del Altar**  
+   Ya explicado anteriormente en el **crafteo del Nucleo del Altar**.
+
+Una vez que tengas todos estos materiales, colócalos en la mesa de trabajo para craftear el **Altar de Invocación**.
+
+
+
