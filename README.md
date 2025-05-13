@@ -11,24 +11,26 @@ Tipo: Aventura
 
 Boss fight
 
-## **Lista de items:**
+## **Items Nuevos:**
 
-• Fragmento de prismarina,
+• Nucleo del Altar
 
-• Vidrio,
+• Altar de invocaion
 
-• Estrella del Nether,
+## **Cómo craftear el Nucleo del Altar**
 
-• Nucleo de Altar,
+Para craftear el **Nucleo del Altar**, necesitarás acceder al Nether y obtener algunos recursos clave. A continuación, te explicamos cómo conseguir cada uno de ellos:
 
-• Bloque de Esmeralda,
+1. **Fragmento de Prismarina**  
+   Los **Fragmentos de Prismarina** se pueden obtener derrotando **Guardianes** en los **Monumentos Oceánicos**. Asegúrate de explorar los océanos profundos para encontrarlos.
 
-• ladrillos de piedra negra pulida,
+2. **Vidrio**  
+   El **Vidrio** es un material fácil de conseguir. Solo necesitarás **Arena**, la cual puedes encontrar en la playa o en el desierto. Luego, coloca la arena en el horno para fundirla y obtener vidrio.
 
-• Lozas de ladrillo de piedra negra pulida,
+3. **Estrella del Nether**  
+   La **Estrella del Nether** se obtiene al derrotar al **Wither**. Para invocar al Wither, necesitarás 3 cabezas de Wither y 4 bloques de **Arena del Alma**, que se encuentran en el Nether. Una vez derrotado, el Wither dejará caer la **Estrella del Nether**.
 
-• Lozas de Madera, 
-
+Con estos tres materiales, ya podrás craftear el **Nucleo del Altar**.
 
 
 Componentes del Mod:
