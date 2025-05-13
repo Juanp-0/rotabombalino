@@ -62,6 +62,9 @@ public class RotabombalinoMod
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.ALTAR_ROTABOMBALINO);
         }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.NUCLEO_TRALALERO);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
