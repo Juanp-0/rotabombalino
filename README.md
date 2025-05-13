@@ -66,6 +66,9 @@ Para craftear el **Altar de Invocación**, combina los siguientes materiales en 
 Una vez que tengas todos estos materiales, colócalos en la mesa de trabajo para craftear el **Altar de Invocación**.
 ![Altar de Invocación](Imagen%20de%20WhatsApp%202025-05-13%20a%20las%2015.08.30_e89d3823.jpg)
 
+Cuando craftees el Altar de invocacion ya tendras lo necesario para invocar al Boss Rotabombalino,tienes que colocar el altar en el suelo y interactua con este mismo dando le click para  ahora si invocarlo 
+
+![Altar de Invocación](Imagen%20de%20WhatsApp%202025-05-13%20a%20las%2015.08.30_e89d3823.jpg)
 
 
 
