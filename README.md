@@ -72,7 +72,7 @@ Una vez que tengas todos estos materiales, colócalos en la mesa de trabajo para
 
 ## Cómo usar el Altar de Invocación
 
-Una vez hayas crafteado el **Altar de Invocación**, ya estarás listo para invocar al jefe **Rotabombalino**.
+Una vez hayas crafteado el **Altar de Invocación**, ya estarás listo para invocar al jefe **Tralalero tralala**.
 
 Coloca el altar en el suelo y **haz clic derecho sobre él** para iniciar la invocación. Asegúrate de estar preparado, ya que el combate será desafiante.
 
