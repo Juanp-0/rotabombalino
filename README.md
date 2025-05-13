@@ -64,8 +64,7 @@ Para craftear el **Altar de Invocación**, combina los siguientes materiales en 
    Ya explicado anteriormente en el **crafteo del Nucleo del Altar**.
 
 Una vez que tengas todos estos materiales, colócalos en la mesa de trabajo para craftear el **Altar de Invocación**.
-
-![Altar de Invocación]()
+![Altar de Invocación](Imagen%20de%20WhatsApp%202025-05-13%20a%20las%2015.08.30_e89d3823.jpg)
 
 
 
