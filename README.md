@@ -35,6 +35,8 @@ Con estos tres materiales, ya podrás craftear el **Nucleo del Altar**.
 En esta imagen te proporcionare de la manera correcta como se carftea este item
 
 
+
+
 ## **Crafteo del Altar de Invocación**
 
 Para craftear el **Altar de Invocación**, combina los siguientes materiales en la mesa de trabajo:
