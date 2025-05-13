@@ -8,14 +8,14 @@ Tipo: Aventura
 Boss fight
 
 **Lista de items:**
-• Fragmento de prismarina
-• Vidrio
-• Estrella del Nether
-• Nucleo de Altar 
-• Bloque de Esmeralda
-• ladrillos de piedra negra pulida
-• Lozas de ladrillo de piedra negra pulida
-• Lozas de Madera 
+• Fragmento de prismarina,
+• Vidrio,
+• Estrella del Nether,
+• Nucleo de Altar,
+• Bloque de Esmeralda,
+• ladrillos de piedra negra pulida,
+• Lozas de ladrillo de piedra negra pulida,
+• Lozas de Madera, 
 
 
 
