@@ -11,7 +11,7 @@ Tipo: Aventura
 
 Boss fight
 
-**Lista de items:**
+## **Lista de items:**
 
 • Fragmento de prismarina,
 
