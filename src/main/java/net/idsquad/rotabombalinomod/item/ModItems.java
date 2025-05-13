@@ -11,6 +11,10 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, RotabombalinoMod.MOD_ID);
 
+    public static final RegistryObject<Item> NUCLEO_TRALALERO = ITEMS.register("altar_core",
+            () -> new Item(new Item.Properties()));
+
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

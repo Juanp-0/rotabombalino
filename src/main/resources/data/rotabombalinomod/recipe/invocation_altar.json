@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "_":{
+            "item":"minecraft:polished_blackstone_brick_slab"
+        },
+        "E":{
+            "item":"minecraft:emerald_block"
+        },
+        "P":{
+            "item":"minecraft:polished_blackstone_bricks"
+        },
+        "C":{
+            "item":"rotabombalinomod:altar_core"
+        },
+        "W":{
+            "item":"minecraft:oak_slab"
+        },
+        "K":{
+            "item":"minecraft:soul_sand"
+        }
+    },
+    "pattern": [
+        "_E_",
+        "PCP",
+        "WKW"
+    ],
+    "result": {
+        "count": 1,
+        "id": "rotabombalinomod:invocation_altar"
+    }
+}
