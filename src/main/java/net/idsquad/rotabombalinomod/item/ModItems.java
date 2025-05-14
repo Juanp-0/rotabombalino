@@ -1,6 +1,7 @@
 package net.idsquad.rotabombalinomod.item;
 
 import net.idsquad.rotabombalinomod.RotabombalinoMod;
+import net.idsquad.rotabombalinomod.item.custom.TralaleroShoesItem;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,9 +20,11 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> TRALALERO_SHOES = ITEMS.register("tralalero_shoes",
-            () -> new ArmorItem(ModArmorMaterials.TRALALERO_SCALE_MATERIAL, ArmorItem.Type.BOOTS,
-            new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
-
+            () -> new TralaleroShoesItem(
+                    ModArmorMaterials.TRALALERO_SCALE_MATERIAL, // ya no uses `.get()`
+                    ArmorItem.Type.BOOTS,
+                    new Item.Properties()
+            ));
 
 
 
