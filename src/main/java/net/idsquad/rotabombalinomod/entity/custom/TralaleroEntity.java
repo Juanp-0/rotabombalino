@@ -1,7 +1,11 @@
 package net.idsquad.rotabombalinomod.entity.custom;
 
 import net.idsquad.rotabombalinomod.item.ModItems;
+import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.BossEvent;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.entity.AnimationState;
@@ -23,6 +27,9 @@ import org.jetbrains.annotations.Nullable;
 public class TralaleroEntity extends Monster {
     public final AnimationState idleAnimationState = new AnimationState();
     private int idleAnimationTimeout = 0;
+
+    public final ServerBossEvent bossEvent = new ServerBossEvent(Component.literal("Tralalero Tralala"),
+            BossEvent.BossBarColor.BLUE, BossEvent.BossBarOverlay.NOTCHED_20);
 
     public TralaleroEntity(EntityType<? extends Monster> pEntityType, Level pLevel) {
         super(pEntityType, pLevel);
@@ -77,5 +84,26 @@ public class TralaleroEntity extends Monster {
         super.dropCustomDeathLoot(level, source, causedByPlayer);
 
         this.spawnAtLocation(new ItemStack(ModItems.TRALALERO_SCALE.get(), 8));
+    }
+
+        /* BOSS BAR */
+
+    @Override
+    public void startSeenByPlayer(ServerPlayer pServerPlayer) {
+        super.startSeenByPlayer(pServerPlayer);
+        this.bossEvent.addPlayer(pServerPlayer);
+    }
+
+    @Override
+    public void stopSeenByPlayer(ServerPlayer pServerPlayer) {
+        super.stopSeenByPlayer(pServerPlayer);
+        this.bossEvent.removePlayer(pServerPlayer);
+        }
+
+
+    @Override
+    public void aiStep() {
+        super.aiStep();
+        this.bossEvent.setProgress(this.getHealth() / this.getMaxHealth());
     }
 }
