@@ -1,5 +1,7 @@
 {
   "block.rotabombalinomod.invocation_altar": "Invocation Altar",
   "entity.rotabombalinomod.tralalero": "Tralalero Tralala",
-  "item.rotabombalinomod.altar_core": "Altar Core"
+  "item.rotabombalinomod.altar_core": "Altar Core",
+  "item.rotabombalinomod.tralalero_scale": "Tralalero Scale",
+  "item.rotabombalinomod.tralalero_shoes": "Tralalero Shoes"
 }

@@ -59,11 +59,17 @@ public class RotabombalinoMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS){
             event.accept(ModBlocks.ALTAR_ROTABOMBALINO);
         }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.NUCLEO_TRALALERO);
+        }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.TRALALERO_SCALE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT){
+            event.accept(ModItems.TRALALERO_SHOES);
         }
     }
 

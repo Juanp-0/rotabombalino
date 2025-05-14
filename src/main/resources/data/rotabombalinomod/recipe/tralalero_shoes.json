@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "B": {
+            "item":"minecraft:leather_boots"
+        },
+        "T": {
+            "item":"rotabombalinomod:tralalero_scale"
+        }
+    },
+    "pattern": [
+        "TTT",
+        "TBT",
+        "TTT"
+    ],
+    "result": {
+        "count": 1,
+        "id": "rotabombalinomod:tralalero_shoes"
+    }
+}
