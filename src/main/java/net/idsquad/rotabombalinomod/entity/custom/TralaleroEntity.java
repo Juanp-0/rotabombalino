@@ -1,6 +1,8 @@
 package net.idsquad.rotabombalinomod.entity.custom;
 
+import net.idsquad.rotabombalinomod.item.ModItems;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.entity.EntityType;
@@ -14,6 +16,7 @@ import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
 
@@ -68,5 +71,11 @@ public class TralaleroEntity extends Monster {
         if(this.level().isClientSide()){
             this.setupAnimationStates();
         }
+    }
+    @Override
+    protected void dropCustomDeathLoot(ServerLevel level, DamageSource source, boolean causedByPlayer) {
+        super.dropCustomDeathLoot(level, source, causedByPlayer);
+
+        this.spawnAtLocation(new ItemStack(ModItems.TRALALERO_SCALE.get(), 8));
     }
 }
