@@ -76,7 +76,7 @@ Una vez hayas crafteado el **Altar de Invocación**, ya estarás listo para invo
 
 Coloca el altar en el suelo y **haz clic derecho sobre él** para iniciar la invocación. Asegúrate de estar preparado, ya que el combate será desafiante.
 
-![Altar de Invocación](Imagen%20de%20WhatsApp%202025-05-12%20a%20las%2021.33.23_f8faaec7.jpg)
+![Altar de Invocación](Imagen%20de%20WhatsApp%202025-05-14%20a%20las%2015.42.05_9df370d7.jpg)
 
 
 
