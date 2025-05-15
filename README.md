@@ -79,28 +79,35 @@ Coloca el altar en el suelo y **haz clic derecho sobre él** para iniciar la inv
 ![Altar de Invocación](Imagen%20de%20WhatsApp%202025-05-14%20a%20las%2015.42.05_9df370d7.jpg)
 
 
-## **Drops del boss** 
+## **Drops del Boss**
 
-Se espera que sea una batalla interesante por lo que cuando lo derrotes de dropeara los items necesarios para craftear sus botas las cuales te proporcionaran velocidad IV , VIII de armadura lo cual es un item bastante poderoso para tu aventura 
+La batalla contra **Rotabombalino** será desafiante, pero valdrá la pena. Al derrotarlo, dejará caer los objetos necesarios para **craftear sus botas especiales**, las cuales te otorgarán:
 
-![Altar de invocacion](Imagen de WhatsApp 2025-05-14 a las 15.06.44_0535f6ba.jpg)
+- **Velocidad IV**
+- **Armadura VIII**
 
+Estas botas son un ítem muy poderoso para tu aventura.
 
-## **Como craftear las botas**
-necesitara vencer al boss para que te dropee sus items:
+![Drop del boss](Imagen%20de%20WhatsApp%202025-05-14%20a%20las%2015.06.44_0535f6ba.jpg)
 
-- **Escamas de tralalero tralala**
+---
 
+## **Cómo craftear las Botas**
+
+Para obtenerlas, deberás vencer al boss y reunir los siguientes materiales:
+
+- **Escamas de Tralalero Tralala**
 - **Botas de cuero**
 
-Despues de conseguir todo lo necesario podras craftearlo aqui te dejo como es la forma correcta de hacerlo
+Una vez que tengas todos los ítems, podrás craftearlas siguiendo este diseño:
 
-![Altar de invocacion](Imagen de WhatsApp 2025-05-13 a las 23.11.34_2407ca31.jpg)
+![Crafteo de las botas](Imagen%20de%20WhatsApp%202025-05-13%20a%20las%2023.11.34_2407ca31.jpg)
 
+---
 
+## **Botas equipadas**
 
+Aquí puedes ver cómo se ven las botas equipadas en el personaje, ¡listo para enfrentar cualquier reto!
 
-Y por ultimo en esta imagen veras las botas en el personaje listo para la aventura
-
-![Altar de invocacion](Imagen de WhatsApp 2025-05-13 a las 23.11.34_2407ca31.jpg)
+![Botas equipadas](Imagen%20de%20WhatsApp%202025-05-14%20a%20las%2017.20.16_57da98d3.jpg)
 
