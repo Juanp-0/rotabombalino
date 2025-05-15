@@ -81,7 +81,7 @@ Coloca el altar en el suelo y **haz clic derecho sobre él** para iniciar la inv
 
 ## **Drops del Boss**
 
-La batalla contra **Rotabombalino** será desafiante, pero valdrá la pena. Al derrotarlo, dejará caer los objetos necesarios para **craftear sus botas especiales**, las cuales te otorgarán:
+La batalla contra **Tralalero Tralala** será desafiante, pero valdrá la pena. Al derrotarlo, dejará caer los objetos necesarios para **craftear sus botas especiales**, las cuales te otorgarán:
 
 - **Velocidad IV**
 - **Armadura VIII**
