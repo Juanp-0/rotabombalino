@@ -70,13 +70,36 @@ Una vez que tengas todos estos materiales, colócalos en la mesa de trabajo para
 
 
 
-## Cómo usar el Altar de Invocación
+## **Cómo usar el Altar de Invocación**
 
 Una vez hayas crafteado el **Altar de Invocación**, ya estarás listo para invocar al jefe **Tralalero tralala**.
 
 Coloca el altar en el suelo y **haz clic derecho sobre él** para iniciar la invocación. Asegúrate de estar preparado, ya que el combate será desafiante.
 
 ![Altar de Invocación](Imagen%20de%20WhatsApp%202025-05-14%20a%20las%2015.42.05_9df370d7.jpg)
+
+
+## **Drops del boss** 
+
+Se espera que sea una batalla interesante por lo que cuando lo derrotes de dropeara los items necesarios para craftear sus botas las cuales te proporcionaran velocidad IV , VIII de armadura lo cual es un item bastante poderoso para tu aventura 
+
+
+
+
+## **Como craftear las botas**
+necesitara vencer al boss para que te dropee sus items:
+
+- **Escamas de tralalero tralala**
+
+- **Botas de cuero**
+
+Despues de conseguir todo lo necesario podras craftearlo aqui te dejo como es la forma correcta de hacerlo
+
+
+
+
+Y por ultimo en esta imagen veras las botas en el personaje listo para la aventura
+
 
 
 
