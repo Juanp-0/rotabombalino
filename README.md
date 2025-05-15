@@ -83,7 +83,7 @@ Coloca el altar en el suelo y **haz clic derecho sobre él** para iniciar la inv
 
 Se espera que sea una batalla interesante por lo que cuando lo derrotes de dropeara los items necesarios para craftear sus botas las cuales te proporcionaran velocidad IV , VIII de armadura lo cual es un item bastante poderoso para tu aventura 
 
-
+![Altar de invocacion](Imagen de WhatsApp 2025-05-13 a las 23.11.34_2407ca31.jpg)
 
 
 ## **Como craftear las botas**
@@ -95,12 +95,12 @@ necesitara vencer al boss para que te dropee sus items:
 
 Despues de conseguir todo lo necesario podras craftearlo aqui te dejo como es la forma correcta de hacerlo
 
+![Altar de invocacion](Imagen de WhatsApp 2025-05-13 a las 23.11.34_2407ca31.jpg)
+
 
 
 
 Y por ultimo en esta imagen veras las botas en el personaje listo para la aventura
 
-
-
-
+![Altar de invocacion](Imagen de WhatsApp 2025-05-13 a las 23.11.34_2407ca31.jpg)
 
