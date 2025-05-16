@@ -50,7 +50,7 @@ public class TralaleroEntity extends Monster {
 
     public static AttributeSupplier.Builder createAttributes(){
         return Animal.createLivingAttributes()
-                .add(Attributes.MAX_HEALTH, 500.0D)
+                .add(Attributes.MAX_HEALTH, 1.0D)
                 .add(Attributes.MOVEMENT_SPEED, 0.40D)
                 .add(Attributes.ATTACK_DAMAGE, 12.5D)
                 .add(Attributes.FOLLOW_RANGE, 40.0D)

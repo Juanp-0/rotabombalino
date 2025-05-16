@@ -21,7 +21,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> TRALALERO_SHOES = ITEMS.register("tralalero_shoes",
             () -> new TralaleroShoesItem(
-                    ModArmorMaterials.TRALALERO_SCALE_MATERIAL, // ya no uses `.get()`
+                    ModArmorMaterials.TRALALERO_SCALE_MATERIAL,
                     ArmorItem.Type.BOOTS,
                     new Item.Properties()
             ));
